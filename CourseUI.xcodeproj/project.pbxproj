@@ -14,6 +14,9 @@
 		AE53E3FC2B94AB5B009C16E0 /* CourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E3FB2B94AB5B009C16E0 /* CourseUITests.swift */; };
 		AE53E4062B94AB5B009C16E0 /* CourseUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E4052B94AB5B009C16E0 /* CourseUIUITests.swift */; };
 		AE53E4082B94AB5B009C16E0 /* CourseUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E4072B94AB5B009C16E0 /* CourseUIUITestsLaunchTests.swift */; };
+		AE53E4172B94D04D009C16E0 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E4162B94D04D009C16E0 /* BannerView.swift */; };
+		AE53E4192B94D138009C16E0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E4182B94D138009C16E0 /* HeaderView.swift */; };
+		AE53E41B2B94EDF9009C16E0 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE53E41A2B94EDF9009C16E0 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AE53E4012B94AB5B009C16E0 /* CourseUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CourseUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE53E4052B94AB5B009C16E0 /* CourseUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseUIUITests.swift; sourceTree = "<group>"; };
 		AE53E4072B94AB5B009C16E0 /* CourseUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE53E4162B94D04D009C16E0 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		AE53E4182B94D138009C16E0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		AE53E41A2B94EDF9009C16E0 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		AE53E3E92B94AB59009C16E0 /* CourseUI */ = {
 			isa = PBXGroup;
 			children = (
+				AE53E4142B94D017009C16E0 /* View */,
 				AE53E3EA2B94AB59009C16E0 /* CourseUIApp.swift */,
 				AE53E3EC2B94AB59009C16E0 /* ContentView.swift */,
 				AE53E3EE2B94AB5B009C16E0 /* Assets.xcassets */,
@@ -125,6 +132,24 @@
 				AE53E4072B94AB5B009C16E0 /* CourseUIUITestsLaunchTests.swift */,
 			);
 			path = CourseUIUITests;
+			sourceTree = "<group>";
+		};
+		AE53E4142B94D017009C16E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE53E4152B94D02A009C16E0 /* home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE53E4152B94D02A009C16E0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				AE53E4162B94D04D009C16E0 /* BannerView.swift */,
+				AE53E4182B94D138009C16E0 /* HeaderView.swift */,
+				AE53E41A2B94EDF9009C16E0 /* HomePage.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE53E41B2B94EDF9009C16E0 /* HomePage.swift in Sources */,
 				AE53E3ED2B94AB59009C16E0 /* ContentView.swift in Sources */,
 				AE53E3EB2B94AB59009C16E0 /* CourseUIApp.swift in Sources */,
+				AE53E4172B94D04D009C16E0 /* BannerView.swift in Sources */,
+				AE53E4192B94D138009C16E0 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
