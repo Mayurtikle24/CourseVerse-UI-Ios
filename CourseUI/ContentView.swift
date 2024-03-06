@@ -23,7 +23,7 @@ struct ContentView: View {
             
             VStack{
                 
-                Text("Cart")
+                ProfileUI()
                 
             } .tabItem {
                 Image(systemName: "cart")
